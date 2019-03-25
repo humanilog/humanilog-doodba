@@ -6,12 +6,11 @@ account-closing:
     - account_invoice_start_end_dates
 
 server-tools:
-    - base_import_match
+    #- base_import_match
     - module_auto_update
 
 addons_custom:
-    - custom_multivision
-    - custom_hejmo
+    - "*"
 
 partner-contact:
     - partner_contact_gender
