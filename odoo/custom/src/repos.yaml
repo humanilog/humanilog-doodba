@@ -10,9 +10,17 @@
         ocb: https://github.com/OCA/OCB.git
         odoo: https://github.com/odoo/odoo.git
         openupgrade: https://github.com/OCA/OpenUpgrade.git
-    target:
-        ocb $ODOO_VERSION
+    target: ocb $ODOO_VERSION
     merges:
         - ocb $ODOO_VERSION
         # Example of a merge of the PR with the number <PR>
         # - oca refs/pull/<PR>/head
+
+addons_custom:
+    defaults:
+        depth: $DEPTH_MERGE
+    remotes:
+        origin: https://gitlab.elegosoft.com/humanilog/addons_custom.git
+    target: origin feature_1_bl14_running_order_import_v10
+    merges:
+        - origin feature_1_bl14_running_order_import_v10
