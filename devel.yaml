@@ -19,6 +19,9 @@ services:
         extends:
             file: common.yaml
             service: odoo
+        env_file:
+            - .docker/odoo.env
+            - .docker/db-access.env
         build:
             args:
                 # To aggregate in development, use `setup-devel.yaml`
@@ -60,9 +63,10 @@ services:
         extends:
             file: common.yaml
             service: db
+        env_file:
+            - .docker/db-creation.env
         environment:
             POSTGRES_DB: *dbname
-            POSTGRES_PASSWORD: odoopassword
 
     smtp:
         extends:

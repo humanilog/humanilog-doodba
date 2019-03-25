@@ -18,4 +18,4 @@ docker-compose.yml
 .vscode
 
 # Project-specific docker configurations
-.docker
+# .docker
