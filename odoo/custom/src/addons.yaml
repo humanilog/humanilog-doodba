@@ -1,3 +1,7 @@
+web:
+    - web_responsive
+    - web_timeline
+
 sale-workflow:
     - sale_rental
     - sale_start_end_dates
