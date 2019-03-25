@@ -21,6 +21,6 @@ addons_custom:
         depth: $DEPTH_MERGE
     remotes:
         origin: https://gitlab.elegosoft.com/humanilog/addons_custom.git
-    target: origin feature_1_bl14_running_order_import_v10
+    target: origin humanilog_v10_integration
     merges:
-        - origin feature_1_bl14_running_order_import_v10
+        - origin humanilog_v10_integration
