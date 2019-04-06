@@ -13,10 +13,22 @@ server-tools:
     - base_import_match
     - module_auto_update
 
-addons_custom:
-    - custom_multivision
-    - custom_hejmo
-
 partner-contact:
     - partner_contact_gender
     - partner_contact_personal_information_page
+
+project:
+    - project_timeline
+    - project_recalculate
+    - project_description
+    - project_task_add_very_hgh
+
+knowledge:
+    - "*"
+
+bank-statement-import:
+    - "*"
+
+# Our addons
+addons_custom:
+    - "*"

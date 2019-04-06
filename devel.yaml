@@ -57,6 +57,7 @@ services:
             - --workers=0
             # XXX Odoo v8 has no `--dev` mode; Odoo v9 has no parameters
             - --dev=xml
+            #- --log-sql
             #reload,qweb,werkzeug,xml
 
     db:
