@@ -59,8 +59,6 @@ services:
             #- --log-level
             #- debug
             #- --log-sql
-            # Flag to enable faster loads of xml changes.
-            - --dev=xml
 
     db:
         extends:
