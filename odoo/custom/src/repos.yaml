@@ -16,6 +16,7 @@
         # Example of a merge of the PR with the number <PR>
         # - oca refs/pull/<PR>/head
 
+# You can specify here which branch of addon_custom should be cloned and checked out
 addons_custom:
     defaults:
         depth: $DEPTH_MERGE
@@ -24,3 +25,5 @@ addons_custom:
     target: origin humanilog_v10_integration
     merges:
         - origin humanilog_v10_integration
+
+# Add other sources below if need be
