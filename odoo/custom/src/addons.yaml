@@ -21,7 +21,7 @@ project:
     - project_timeline
     - project_recalculate
     - project_description
-    - project_task_add_very_hgh
+    - project_task_add_very_high
 
 knowledge:
     - "*"
