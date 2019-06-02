@@ -32,6 +32,6 @@ donation:
         depth: $DEPTH_MERGE
     remotes:
         origin: https://github.com/humanilog/donation.git
-    target: origin donation_de
+    target: origin 9.0
     merges:
-        - origin donation_de
+        - origin 9.0
