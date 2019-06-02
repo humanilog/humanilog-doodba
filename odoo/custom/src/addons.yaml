@@ -32,3 +32,6 @@ bank-statement-import:
 # Our addons
 addons_humanilog:
     - "*"
+
+donation:
+    - "*"

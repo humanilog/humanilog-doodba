@@ -27,3 +27,11 @@ addons_humanilog:
         - origin humanilog_v9_integration
 
 # Add other sources below if need be
+donation:
+    defaults:
+        depth: $DEPTH_MERGE
+    remotes:
+        origin: https://github.com/humanilog/donation.git
+    target: origin donation_de
+    merges:
+        - origin donation_de
